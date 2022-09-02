@@ -8,7 +8,7 @@ authornote: |
   \noindent \addORCIDlink{Mariane F.B. Bacelar}{0000-0002-0388-1769} \newline
   \noindent \addORCIDlink{Michael J. Carter}{0000-0002-0675-4271} \vspace{2ex} \newline
   \noindent Data and code: https://osf.io/9a6m8/ \vspace{2ex} \newline
-  \noindent \textbf{Corresponding authors:} Brad McKay (bradmckay8@gmail.com; mckayb9@mcmaster.ca) and Michael J. Carter     (cartem11@mcmaster.ca; motorlab@mcmaster.ca)
+  \noindent \textbf{Corresponding authors:} Brad McKay (bradmckay8@gmail.com; mckayb9@mcmaster.ca) and Michael J. Carter (cartem11@mcmaster.ca; motorlab@mcmaster.ca)
 
 abstract: |
   Recent metascience suggests that motor behavior research may be underpowered, on average. Researchers can perform *a priori* power analyses to ensure adequately powered studies. However, there are common pitfalls that can result in underestimating the required sample size for a given design and effect size of interest. Critical evaluation of power analyses requires successful analysis reproduction, which is conditional on the reporting of sufficient information. Here we attempted to reproduce every power analysis reported in articles (*k* = 84/635) in three motor behavior journals between January 2019 and June 2021. We reproduced 7% of analyses using the reported information, which increased to 43% when we assumed plausible values for missing parameters. Among studies that reported sufficient information to evaluate, 63% reported using the same statistical test in the power analysis as in the study itself, and in 77% the test addressed at least one of the identified hypotheses. Overall, power analyses were not commonly reported with sufficient information to ensure reproducibility. A non-trivial number of power analyses were also affected by common pitfalls. There is substantial opportunity to address the issue of underpowered research in motor behavior by increasing adoption of power analyses and ensuring reproducible reporting practices.
@@ -16,7 +16,7 @@ abstract: |
 keywords          : |
   Metascience, Power analysis, Motor behavior, Open science
   \newline \newline \hspace*{\fill} \textcolor{orange}{\textbf{\emph{PREPRINT - NOT PEER-REVIEWED}}} \hspace*{\fill}
-  \newline \newline \emph{Please cite as}: McKay, B., Bacelar, M. F. B., \& Carter, M.J. (2022). On the reproducibility of power analyses in motor behavior research. \emph{SportR$\chi$iv}
+  \newline \newline \emph{Please cite as}: McKay, B., Bacelar, M. F. B., \& Carter, M.J. (2022). On the reproducibility of power analyses in motor behavior research. \emph{SportR$\chi$iv}. \href{https://doi.org/10.51224/SRXIV.184}{https://doi.org/10.51224/SRXIV.184}
 #wordcount         : ""
 
 bibliography      : ["../references.bib", "../r-references.bib"]
@@ -72,7 +72,7 @@ The goal of this study was to evaluate the reproducibility of power analyses rep
 
 # Methods
 
-The preregistration, data, and code for this study can be found using either of these links: https://osf.io/9a6m8/ or https://github.com/cartermaclab/proj_power-analysis-reproducibility.
+The preregistration, data, and code for this study can be found using either of these links: https://osf.io/9a6m8/ or https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour.
 
 ## Piloting
 
@@ -91,7 +91,7 @@ If the statistical analysis used in the power analysis was reported in a study, 
 
 Two software considerations were probed during data collection. First, we recorded whether the software used to conduct the power analysis was appropriate for the type of analysis. Second, if partial eta-squared was used in G\*Power, we recorded the setting required to reproduce the power analysis if it was reproducible.
 
-The first and second authors met frequently throughout data collection to discuss the extracted studies and resolve coding conflicts. There were a wide range of study designs, hypotheses, and reporting language in the sample, so meeting frequently ensured consistency and allowed for quick updating of policies when faced with unexpected scenarios.
+The first and second authors met frequently throughout data collection to discuss the extracted studies and resolve coding conflicts. There were a wide range of study designs, hypotheses, and reporting language in the sample, so meeting frequently ensured consistency and allowed for quick updating of policies when faced with unexpected scenarios. Power analyses could be reproduced quickly when reporting was clear (1 to 4 minutes), but it could take much longer when reporting was unclear (15 to 30 minutes).
 
 ## Data Analysis
 
@@ -101,7 +101,7 @@ Each research question was addressed descriptively by calculating proportions. A
 
 ## Preregistered Analyses
 
-Of the 84 power analyses reported in 83 articles, 7% (*n* = 6) were fully reproducible (see Figure \@ref(fig:fig1)A) and 36% (*n* = 30) were conditionally reproducible (see Figure \@ref(fig:fig1)B). The statistical test used in the power analysis matched the one used in the data analysis in 24% of the power analyses (*n* = 20 experiments), did not match in 14% (*n* = 12 experiments), and in the remaining 62% (*n* = 52 experiments) the statistical test used in the power analysis could not be accurately identified, precluding an assessment of the congruence between power analysis design and data analysis design (see Figure \@ref(fig:fig2)A). The design used in the power analysis addressed the experiment’s hypothesis in 23% of the experiments (*n* = 19), at least one of the hypotheses in 6% of the experiments (*n* = 5), none of the hypotheses in 8% of the experiments (*n* = 7), and in 63% of the experiments (*n* = 53), congruence between power analysis design and the experiment’s hypothesis could not be assessed mainly due to a lack of information about the design used in the power analysis (see Figure \@ref(fig:fig2)B). Finally, of 12 studies that reported using partial eta-squared as the effect size parameter in a power analysis, 10 reported using G\*Power. Of the studies that used G\*Power, 8 used the default setting in (80%), one used the 'as in SPSS' setting (10%), and one was not reproducible (10%), precluding an assessment of which setting was used (see Figure \@ref(fig:fig3)A). Neither of the power analyses that did not report using G\*Power could be reproduced with either setting.
+Of the 84 power analyses reported in 83 articles, 7% (*n* = 6) were fully reproducible (see Figure \@ref(fig:fig1)A) and 36% (*n* = 30) were conditionally reproducible (see Figure \@ref(fig:fig1)B). The statistical test used in the power analysis matched the one used in the data analysis in 24% of the power analyses (*n* = 20 experiments), did not match in 14% (*n* = 12 experiments), and in the remaining 62% (*n* = 52 experiments) the statistical test used in the power analysis could not be accurately identified, precluding an assessment of the congruence between power analysis design and data analysis design (see Figure \@ref(fig:fig2)A). The design used in the power analysis addressed the experiment’s hypothesis in 23% of the experiments (*n* = 19), at least one of the hypotheses in 6% of the experiments (*n* = 5), none of the hypotheses in 8% of the experiments (*n* = 7), and in 63% of the experiments (*n* = 53), congruence between power analysis design and the experiment’s hypothesis could not be assessed mainly due to a lack of information about the design used in the power analysis (see Figure \@ref(fig:fig2)B). Finally, of 12 studies that reported using partial eta-squared as the effect size parameter in a power analysis, 10 reported using G\*Power. Of the studies that used G\*Power, 8 used the default setting in (80%), one used the *as in SPSS* setting (10%), and one was not reproducible (10%), precluding an assessment of which setting was used (see Figure \@ref(fig:fig3)A). Neither of the power analyses that did not report using G\*Power could be reproduced with either setting.
 
 \clearpage
 
@@ -215,7 +215,7 @@ Writing -- review & editing: BM, MFBB, MJC
 
 ## Open Science Practices
 
-\noindent The preregistration, data, and code for this study can be accessed using either of these links: https://osf.io/9a6m8/ or https://github.com/cartermaclab/proj_power-analysis-reproducibility.
+\noindent The preregistration, data, and code for this study can be accessed using either of these links: https://osf.io/9a6m8/ or https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour.
 
 ## Conflicts of Interest
 
