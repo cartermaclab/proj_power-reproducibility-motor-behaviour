@@ -3,7 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  man, donotrepeattitle,floatsintext]{apa7}
+  man, donotrepeattitle,mask,floatsintext]{apa7}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
@@ -162,6 +162,7 @@
 \linenumbers
 \usepackage{csquotes}
 \usepackage{pdflscape}
+\usepackage{censor}
 \raggedbottom
 \renewcommand\author[1]{}
 \renewcommand\affiliation[1]{}
@@ -223,7 +224,7 @@ The goal of this study was to evaluate the reproducibility of power analyses rep
 \hypertarget{methods}{%
 \section{Methods}\label{methods}}
 
-The preregistration, data, and code for this study can be found using either of these links: \url{https://osf.io/9a6m8/} or \url{https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour}.
+The preregistration, data, and code for this study can be found using either of these links: \url{https://osf.io/9a6m8/} \censor{or} \censor{$https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour$}.
 
 \hypertarget{piloting}{%
 \subsection{Piloting}\label{piloting}}
@@ -385,27 +386,10 @@ From a sample of 635 motor behavior studies, 84 included a power analysis, and o
 
 \vspace{5ex}
 
-\hypertarget{author-contributions-credit-taxonomy}{%
-\subsection{Author Contributions (CRediT Taxonomy)}\label{author-contributions-credit-taxonomy}}
-
-\noindent Conceptualization: BM, MFBB, MJC\\
-\noindent Data curation: BM, MJC\\
-\noindent Formal analysis: BM\\
-\noindent Funding acquisition: MJC\\
-\noindent Investigation: BM, MFBB
-\noindent Methodology: BM, MFBB\\
-\noindent Project administration: BM, MJC\\
-\noindent Software: BM, MJC\\
-\noindent Supervision: MJC\\
-\noindent Validation: BM, MJC\\
-\noindent Visualization: BM, MJC\\
-\noindent Writing -- original draft: BM, MFBB, MJC\\
-\noindent Writing -- review \& editing: BM, MFBB, MJC
-
 \hypertarget{open-science-practices}{%
 \subsection{Open Science Practices}\label{open-science-practices}}
 
-\noindent The preregistration, data, and code for this study can be accessed using either of these links: \url{https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour} or \url{https://osf.io/9a6m8/}.
+\noindent The preregistration, data, and code for this study can be accessed using either of these links: \censor{$https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour$} or \url{https://osf.io/9a6m8/}.
 
 \hypertarget{conflicts-of-interest}{%
 \subsection{Conflicts of Interest}\label{conflicts-of-interest}}
@@ -415,7 +399,7 @@ From a sample of 635 motor behavior studies, 84 included a power analysis, and o
 \hypertarget{funding}{%
 \subsection{Funding}\label{funding}}
 
-\noindent This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC) and McMaster University (MJC).
+\noindent This work was supported by \blackout{the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC) and McMaster University (MJC)}.
 
 \pagebreak
 
