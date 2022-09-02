@@ -24,7 +24,7 @@ figurelist        : no
 tablelist         : no
 footnotelist      : no
 linenumbers       : yes
-mask              : no
+mask              : yes
 draft             : no
 
 csl               : "`r system.file('rmd', 'apa7.csl', package = 'papaja')`"
@@ -35,6 +35,7 @@ output            : papaja::apa6_pdf
 
 header-includes   :
   - \usepackage{pdflscape}
+  - \usepackage{censor}
   # - \usepackage{setspace}
   # - \pagewiselinenumbers
   - \raggedbottom
@@ -70,7 +71,7 @@ The goal of this study was to evaluate the reproducibility of power analyses rep
 
 # Methods
 
-The preregistration, data, and code for this study can be found using either of these links: https://osf.io/9a6m8/ or https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour.
+The preregistration, data, and code for this study can be found using either of these links: https://osf.io/9a6m8/ \censor{or} \censor{$https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour$}.
 
 ## Piloting
 
@@ -195,25 +196,25 @@ From a sample of 635 motor behavior studies, 84 included a power analysis, and o
 
 \vspace{5ex}
 
-## Author Contributions (CRediT Taxonomy)
+<!-- ## Author Contributions (CRediT Taxonomy) -->
 
-\noindent Conceptualization: BM, MFBB, MJC  
-\noindent Data curation: BM, MJC  
-\noindent Formal analysis: BM  
-\noindent Funding acquisition: MJC  
-\noindent Investigation: BM, MFBB 
-\noindent Methodology: BM, MFBB  
-\noindent Project administration: BM, MJC  
-\noindent Software: BM, MJC  
-\noindent Supervision: MJC  
-\noindent Validation: BM, MJC  
-\noindent Visualization: BM, MJC  
-\noindent Writing -- original draft: BM, MFBB, MJC  
-\noindent Writing -- review & editing: BM, MFBB, MJC
+<!-- \noindent Conceptualization: BM, MFBB, MJC   -->
+<!-- \noindent Data curation: BM, MJC   -->
+<!-- \noindent Formal analysis: BM   -->
+<!-- \noindent Funding acquisition: MJC   -->
+<!-- \noindent Investigation: BM, MFBB  -->
+<!-- \noindent Methodology: BM, MFBB   -->
+<!-- \noindent Project administration: BM, MJC   -->
+<!-- \noindent Software: BM, MJC   -->
+<!-- \noindent Supervision: MJC   -->
+<!-- \noindent Validation: BM, MJC   -->
+<!-- \noindent Visualization: BM, MJC   -->
+<!-- \noindent Writing -- original draft: BM, MFBB, MJC   -->
+<!-- \noindent Writing -- review & editing: BM, MFBB, MJC -->
 
 ## Open Science Practices
 
-\noindent The preregistration, data, and code for this study can be accessed using either of these links: https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour or https://osf.io/9a6m8/.
+\noindent The preregistration, data, and code for this study can be accessed using either of these links:  \censor{$https://github.com/cartermaclab/proj_power-reproducibility-motor-behaviour$} or https://osf.io/9a6m8/.
 
 ## Conflicts of Interest
 
@@ -221,7 +222,7 @@ From a sample of 635 motor behavior studies, 84 included a power analysis, and o
 
 ## Funding
 
-\noindent This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC) and McMaster University (MJC).
+\noindent This work was supported by \blackout{the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC) and McMaster University (MJC)}.
 
 \pagebreak
 
