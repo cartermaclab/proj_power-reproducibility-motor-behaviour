@@ -108,8 +108,14 @@
     "Rttf2pt1": {
       "Package": "Rttf2pt1",
       "Version": "1.3.10",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "Rttf2pt1",
+      "RemoteRef": "Rttf2pt1",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "1.3.10",
       "Hash": "8952819f94cd9fce521f9b1cb558f8a4",
       "Requirements": []
     },
@@ -590,8 +596,14 @@
     "extrafont": {
       "Package": "extrafont",
       "Version": "0.18",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "extrafont",
+      "RemoteRef": "extrafont",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "0.18",
       "Hash": "07a8a50195fc77e8690fd8bc4e87e6a0",
       "Requirements": [
         "Rttf2pt1",
@@ -601,8 +613,14 @@
     "extrafontdb": {
       "Package": "extrafontdb",
       "Version": "1.0",
-      "Source": "Repository",
+      "Source": "CRAN",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "extrafontdb",
+      "RemoteRef": "extrafontdb",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "1.0",
       "Hash": "a861555ddec7451c653b40e713166c6f",
       "Requirements": []
     },
