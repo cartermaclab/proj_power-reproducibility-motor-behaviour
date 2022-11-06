@@ -1,6 +1,7 @@
 Recommendation,Examples
 Report all necessary parameters,Effect size type and value: d = .40
 ,Accepted false positive rate: alpha = .05
+,One or two-tailed test: Two-tailed
 ,"Target power: 80%; Alternatively, accepted false negative rate: beta = .20"
 ,Specific statistical test: t-test - difference between two independent means (two groups).
 ,Required sample size: 200
