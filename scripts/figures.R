@@ -8,7 +8,7 @@
 #>   Brad McKay
 #>   Mike Carter
 #>
-#> Last update: Aug 2 2022
+#> Last update: Nov 9 2022
 #>
 #> Website: https://www.cartermaclab.org
 #> -------------------------------------------
@@ -46,7 +46,7 @@ fig1a <- waffle(
   fig1a_tib,
   rows = 4,
   size = .5,
-  colors = c("#6a3d9a","#cab2d6"),
+  colors = c("#e69f00","#56b4e9"),
   flip = "FALSE", reverse = "TRUE"
 ) +
   theme_enhance_waffle() +
@@ -57,7 +57,7 @@ fig1b <- waffle(
   fig1b_tib,
   rows = 4,
   size = .5,
-  colors = c("#6a3d9a", "#ae6cd6","#cab2d6"),
+  colors = c("#e69f00", "#009e73","#56b4e9"),
   flip = "FALSE", reverse = "TRUE"
 ) +
   theme_enhance_waffle() +
@@ -100,7 +100,7 @@ fig2a <- waffle(
   fig2a_tib,
   rows = 4,
   size = .5,
-  colors = c("#6a3d9a", "#ae6cd6","#cab2d6"), # #88c0d0, #81a1c1, #5e81ac
+  colors = c("#e69f00", "#009e73","#56b4e9"), # #88c0d0, #81a1c1, #5e81ac
   flip = "FALSE", reverse = "TRUE"
 ) +
   theme_enhance_waffle() +
@@ -111,7 +111,7 @@ fig2b <- waffle(
   fig2b_tib,
   rows = 4,
   size = .5,
-  colors = c("#6a3d9a", "#ae6cd6","#cab2d6"),
+  colors = c("#e69f00", "#009e73","#56b4e9"),
   flip = "FALSE", reverse = "TRUE"
 ) +
   theme_enhance_waffle() +
@@ -162,7 +162,7 @@ fig3a <- waffle(
   fig3a_tib,
   rows = 4,
   size = .5,
-  colors = c("#6a3d9a", "#ae6cd6","#cab2d6", "#1e002a"),
+  colors = c("#e69f00", "#56b4e9", "#009e73", "#000000"),
   flip = "FALSE", reverse = "TRUE"
 ) +
   theme_enhance_waffle() +
@@ -179,7 +179,7 @@ fig3b <- fig3b_tib |>
        fill = "Setting") +
   scale_fill_manual(labels = c("As in SPSS",
                                "Default"),
-                    values = rep(c("#6a3d9a","#cab2d6"), 8)) +
+                    values = rep(c("#e69f00","#56b4e9"), 8)) +
   theme(legend.text = element_text(size = 14)) +
   theme(legend.title = element_text(size = 14)) +
   theme(panel.grid.major = element_blank(),
@@ -211,7 +211,7 @@ fig4 <- waffle(
   fig4_tib,
   rows = 15,
   size = .5,
-  colors = c("#6a3d9a", "#cab2d6"),
+  colors = c("#e69f00","#56b4e9"),
   flip = "FALSE", reverse = "TRUE"
 ) +
   theme_enhance_waffle() +
